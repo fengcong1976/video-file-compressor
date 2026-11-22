@@ -1,0 +1,5 @@
+# 界面依赖。ffmpeg 是运行时（ffmpeg/bin 里随包分发），不通过 pip 安装。
+PySide6==6.12.0
+
+# 打包（build_exe.bat 用）：
+pyinstaller==6.22.3

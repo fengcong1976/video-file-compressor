@@ -1,0 +1,30 @@
+# PyInstaller 版本资源：exe 的「属性 → 详细信息」里显示的内容，改版本只改这里。
+# 语言页 080404b0 = 中文（简体，中国）+ Unicode(1200)，避免中文变问号。
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(1, 1, 0, 0),
+    prodvers=(1, 1, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+  ),
+  kids=[
+    StringFileInfo([
+      StringTable('080404b0', [
+        StringStruct('CompanyName', '深圳市创炫互动网络科技有限公司'),
+        StringStruct('FileDescription', '视频文件压缩 · 压到能发出去的体积'),
+        StringStruct('FileVersion', '1.1.0.0'),
+        StringStruct('InternalName', 'VideoFileCompress'),
+        StringStruct('LegalCopyright', 'Copyright (C) 2026 深圳市创炫互动网络科技有限公司'),
+        StringStruct('OriginalFilename', '视频文件压缩.exe'),
+        StringStruct('ProductName', '视频文件压缩'),
+        StringStruct('ProductVersion', '1.1.0.0'),
+        StringStruct('Comments', '纯本地处理，不联网、不上传')
+      ])
+    ]),
+    VarFileInfo([VarStruct('Translation', [2052, 1200])])
+  ]
+)

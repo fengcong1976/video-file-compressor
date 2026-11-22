@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+venv/
+build/
+dist/
+out/
+_verify_samples/
+_verify_out/
+*.spec.bak
+
+# 打包用的 ffmpeg 运行时（55MB，可重新复制）
+ffmpeg/bin/*.exe
+ffmpeg/bin/*.dll
+# --- 开源发布忽略规则 ---
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.venv/
+msix/
+installer_output/
+verification/
+.screenshots/
+.workbuddy/
+.trae/
+.cache/
+.diag/
+*.log
+*.tmp
+.DS_Store
+_icon_preview_*.png

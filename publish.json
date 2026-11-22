@@ -1,0 +1,11 @@
+{
+  "app": {
+    "slug": "video-file-compressor"
+  },
+  "version": {
+    "version_number": "1.1.0",
+    "min_os_version": "Windows 10",
+    "installer": "installer_output/视频文件压缩-1.1.0-安装包.exe",
+    "release_notes": "同步最新版本，修复若干问题。"
+  }
+}
