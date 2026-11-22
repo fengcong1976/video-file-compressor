@@ -1,7 +1,7 @@
 {
   "app": {
     "slug": "video-file-compressor",
-    "description": "本应用已开源：https://gitee.com/FC1976/video-file-compressor（GPL-3.0）。",
+    "description": "视频文件压缩是一款按「目标体积」而不是「压缩档位」工作的本地批量压缩工具。填一个目标大小（如微信 25MB），程序自动反推码率、必要时先降一档分辨率，压到为止；压不到会直说并给出最小可到体积。支持自定义输出宽高与约束比例，原文件字节不被改写，全程本地处理。 本应用已开源：https://gitee.com/FC1976/video-file-compressor（GPL-3.0）。",
     "source_url": "https://gitee.com/FC1976/video-file-compressor",
     "license": "GPL-3.0"
   },
