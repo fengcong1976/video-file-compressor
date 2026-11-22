@@ -6,14 +6,14 @@
 >
 > **口径**：「原片不动」指原文件字节未被改写（SHA-256 前后一致），**不代表画质不变**。视频压缩必然重编码、必然有损；每一条的码率与分辨率变化都写在报告里。
 
-当前进度：**已完成并验收（v1.1.0 加输出尺寸）** —— 核心引擎、命令行、PyQt6 界面、无 UAC 安装包、产品文档。
+当前进度：**已完成并验收（v1.1.0 加输出尺寸）** —— 核心引擎、命令行、PySide6 界面、无 UAC 安装包、产品文档。
 产物：`dist\视频文件压缩\`（免安装版 116MB）、`dist\安装包\视频文件压缩-1.1.0-安装包.exe`（32.6MB）。
 
 产品页与教程：[`docs/产品介绍与功能特点.md`](docs/产品介绍与功能特点.md)、[`docs/使用教程.md`](docs/使用教程.md)。
 
 ## 快速开始
 
-核心只依赖 Python 与 ffmpeg；界面另需 PyQt6。
+核心只依赖 Python 与 ffmpeg；界面另需 PySide6。
 
 ```bash
 pip install -r requirements.txt
@@ -88,7 +88,7 @@ python tools/stress_test.py -b              # 90 秒 1080p 长片 + 40% 处取�
 | `core/compressor.py` | 目标码率反推、3% 余量、两遍编码、超差修正、分辨率阶梯、画质地板、仅无损重封装、逐条报告、批量、同名原子占名 |
 | `core/compliance.py` | 0 联网运行时计数（自检、界面、打包自检共用） |
 | `core/about.py` | 身份与文案单一来源：名称、版本、公司、有损披露、使用说明 |
-| `main.py` | PyQt6 界面 + `--selftest` 打包自检入口 |
+| `main.py` | PySide6 界面 + `--selftest` 打包自检入口 |
 | `cli.py` | 命令行：`--target` / `--size` / `--stretch` / `--out` / `--lossless-only` / `--open` / `--version`，写 `report.json` |
 | `verify.py` | 引擎自检 121 项（含指定尺寸 6 项） |
 | `tools/ui_test.py` | 界面自检 92 项（建真窗口、点真按钮、跑真 QThread、指定尺寸真压） |
@@ -97,7 +97,7 @@ python tools/stress_test.py -b              # 90 秒 1080p 长片 + 40% 处取�
 | `tools/make_docs_shots.py` | 生成文档截图（真实窗口 + 现场合成素材，数字都是真算的） |
 | `docs/` | 产品介绍与功能特点、使用教程、9 张截图 |
 | `立项卡.md` | 立项三问、竞品对照、六条标配落地、技术方案与实测、MVP 范围、命名与撞词、风险、已拍板决策 |
-| `requirements.txt` | 界面依赖（PyQt6）；ffmpeg 作为运行时随包分发，不在此列 |
+| `requirements.txt` | 界面依赖（PySide6）；ffmpeg 作为运行时随包分发，不在此列 |
 
 ## 自检覆盖（121 + 92 + 11 + 6，全过）
 

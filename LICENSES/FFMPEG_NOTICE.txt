@@ -1,0 +1,4 @@
+FFmpeg（随包二进制 N-90553-gbe502ec6cd）
+许可：GPL-3.0，全文见 FFMPEG-GPL-3.0.txt。
+对应源码可从 https://ffmpeg.org/download.html 获取；如需与该二进制完全一致的源码
+及编译参数，请在 3 年内联系 1045117396@qq.com，我们可免费提供。
