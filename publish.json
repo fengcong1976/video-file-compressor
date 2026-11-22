@@ -3,9 +3,9 @@
     "slug": "video-file-compressor"
   },
   "version": {
-    "version_number": "1.1.0",
+    "version_number": "1.1.1",
     "min_os_version": "Windows 10",
-    "installer": "installer_output/视频文件压缩-1.1.0-安装包.exe",
-    "release_notes": "同步最新版本，修复若干问题。"
+    "installer": "installer_output/视频文件压缩-1.1.1-安装包.exe",
+    "release_notes": "1.1.0 → 1.1.1：界面框架升级为 Qt 6 / PySide6，提升启动与渲染稳定性；安装目录补充许可与第三方组件声明；修复若干已知问题。"
   }
 }
