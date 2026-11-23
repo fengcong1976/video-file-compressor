@@ -1,5 +1,6 @@
 # 视频文件压缩 · v1.1.0
 
+> 免费下载与图文教程：<https://www.mrheedu.com/apps/video-file-compressor>　·　更多免费软件：[www.mrheedu.com](https://www.mrheedu.com)
 按《创炫互动 · 新品立项与验收规范》v1.5 立项的第二款。立项依据、竞品对照、验收方式见 [`立项卡.md`](立项卡.md)。
 
 > **一句话**：填 25 就压到 25MB 以内；要固定分辨率就顺手填宽高，片子不出本机。
