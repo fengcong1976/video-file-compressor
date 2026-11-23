@@ -148,3 +148,9 @@ build_installer.bat     :: 先 PyInstaller 出 dist\视频文件压缩\，再 IS
 本仓库只包含源码，以下运行时资源体积较大，未纳入仓库：
 
 - ffmpeg/（FFmpeg 运行时）：自行下载 FFmpeg 后放到该目录再运行/打包。
+
+---
+
+## 更多免费软件
+
+本工具由深圳市创炫互动网络科技有限公司开发，官网提供免费安装包、图文教程，以及更多永久免费的 Windows 软件：**[www.mrheedu.com](https://www.mrheedu.com)**
